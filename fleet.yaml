@@ -1,0 +1,2 @@
+helm:
+  chart: "you want to register the bootstrap/ path, not /"
