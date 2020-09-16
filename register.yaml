@@ -5,5 +5,3 @@ metadata:
   namespace: fleet-local
 spec:
   repo: https://github.com/ibuildthecloud/fleet-kitchensink
-  paths:
-  - bootstrap

@@ -1,3 +1,0 @@
-helm:
-  chart: github.com/ibuildthecloud/k3s-operator//charts/k3s-operator
-namespace: k3s-operator
