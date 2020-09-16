@@ -6,4 +6,4 @@ metadata:
 spec:
   repo: https://github.com/ibuildthecloud/k3s-operator
   paths:
-  - chart/k3s-operator
+  - charts/k3s-operator
