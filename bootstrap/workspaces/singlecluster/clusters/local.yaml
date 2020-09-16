@@ -1,0 +1,18 @@
+kind: K3s
+apiVersion: k3s.ibtc.io/v1
+metadata:
+  name: local-cluster
+  namespace: single-cluster
+
+---
+kind: Cluster
+apiVersion: rancher.cattle.io/v1
+metadata:
+  name: local-cluster
+  namespace: single-cluster
+  labels:
+    local: "true"
+spec:
+  fleetWorkspaceName: single-cluster
+  importedConfig:
+    kubeConfigSecret: local-cluster-kubeconfig

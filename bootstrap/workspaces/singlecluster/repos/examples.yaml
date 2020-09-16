@@ -1,0 +1,14 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: examples
+  namespace: single-cluster
+spec:
+  repo: https://github.com/ibuildthecloud/fleet-examples/
+  paths:
+  - simple
+  - single-cluster/manifests
+  - single-cluster/kustomize
+  - single-cluster/helm
+  - single-cluster/helm-kustomize
+  - single-cluster/helm-multi-chart

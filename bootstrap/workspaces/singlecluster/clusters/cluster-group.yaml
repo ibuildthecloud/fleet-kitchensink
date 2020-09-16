@@ -1,0 +1,9 @@
+kind: ClusterGroup
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: default
+  namespace: single-cluster
+spec:
+  selector:
+    matchLabels:
+      local: "true"
