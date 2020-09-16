@@ -6,4 +6,4 @@ metadata:
 spec:
   repo: https://github.com/ibuildthecloud/fleet-kitchensink
   paths:
-  - boostrap
+  - bootstrap
