@@ -4,7 +4,7 @@ metadata:
   name: examples
   namespace: multi-cluster
 spec:
-  repo: https://github.com/ibuildthecloud/fleet-examples/
+  repo: https://github.com/rancher/fleet-examples/
   paths:
   - simple
   - multi-cluster/manifests
